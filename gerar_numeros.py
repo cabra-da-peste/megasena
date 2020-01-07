@@ -104,6 +104,6 @@ def probabilidade(n_numeros):
 # chama a função megasena passando a quantidade de números e quantidade de jogos
 megasena(n_numeros, n_jogos)
 # maior_frequencia(n_numeros, n_jogos)
-print("O valor total dos jogos é R$ ", valorjogo1(n_numeros, n_jogos))
+print("\n O valor total dos jogos é R$ ", valorjogo1(n_numeros, n_jogos))
 
-print("Probabilidade de acerto de acerto apostando ",n_numeros," dezenas por jogo é de SENA: 1 em ",probabilidade(n_numeros)[0]," QUINA: 1 em ",probabilidade(n_numeros)[1]," QUADRA: é  1 em "probabilidade(n_numeros)[2])
+print("\n Probabilidade de acerto de acerto apostando ",n_numeros," dezenas por jogo é de SENA: 1 em ",probabilidade(n_numeros)[0]," QUINA: 1 em ",probabilidade(n_numeros)[1]," QUADRA: é  1 em ",probabilidade(n_numeros)[2])
